@@ -1,0 +1,35 @@
+{
+  "name": "npm-bin-path",
+  "version": "0.0.0",
+  "description": "Get path of npm bin directory for executing locally and globally",
+  "license": "MIT",
+  "repository": "ragingwind/npm-bin-path",
+  "author": {
+    "name": "ragingwind",
+    "email": "ragingwind@gmail.com",
+    "url": "ragingwind.me"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo src/*.js test*.js && npm run babel && ava",
+    "babel": "babel src --out-dir . --presets=es2015",
+    "prepublish": "npm run babel"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {
+    "execa": "^0.2.1"
+  },
+  "devDependencies": {
+    "ava": "^0.8.0",
+    "xo": "^0.12.1",
+    "babel-cli": "^6.3.17",
+    "babel-preset-es2015": "^6.3.13"
+  }
+}
