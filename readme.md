@@ -26,7 +26,7 @@ npmBinPath().then(p => {
 
 ### npmBinPath()
 
-return array of npm paths.
+returns array of npm paths.
 
 ## License
 
