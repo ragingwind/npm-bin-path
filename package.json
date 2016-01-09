@@ -1,6 +1,6 @@
 {
   "name": "npm-bin-path",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Get path of npm bin directory for executing locally and globally",
   "license": "MIT",
   "repository": "ragingwind/npm-bin-path",
