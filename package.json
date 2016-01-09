@@ -10,7 +10,7 @@
     "url": "ragingwind.me"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=0.4.0"
   },
   "scripts": {
     "test": "xo src/*.js test*.js && npm run babel && ava",
