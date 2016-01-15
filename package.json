@@ -21,7 +21,10 @@
     "index.js"
   ],
   "keywords": [
-    ""
+    "npm",
+    "npm bin",
+    "bin",
+    "path"
   ],
   "dependencies": {
     "execa": "^0.2.1"
